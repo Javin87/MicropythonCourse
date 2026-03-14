@@ -4,6 +4,6 @@ from time import sleep
 led = Pin(5, Pin.OUT)
 btn = Pin(4, Pin.IN)
 while True:
-    led.value(led.value(btn.value()))
+    led.value(btn.value())
     sleep(0.1)
 
